@@ -8,7 +8,7 @@ export default function Heder() {
                 <h2>Arkadiusz K.</h2>
                 <h4>Pending Frontend Developer</h4>
                 <p>later</p>
-                <button><img src={Icon} /> Email</button>
+                <a href="https://external-preview.redd.it/Ka4CNgYfh8xkCZ0Oy_KPxFqeRDdw6_qY9cwgwk2rGx4.gif?width=300&format=mp4&s=1cda16ca59bad647bf22e62af2b149574a8eff1f"><img src={Icon} /> Email</a>
             </div>
     </section>
     </>

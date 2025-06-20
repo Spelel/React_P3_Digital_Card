@@ -26,7 +26,7 @@ img {
   margin-top: 1rem;
 }
 
-button {
+a {
   padding: 0.5rem 8rem;
   font-weight: 500;
   font-size: 1.2rem;
@@ -36,9 +36,15 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-button img {
+a:hover {
+  cursor: pointer;
+}
+
+a img {
   max-width: 22px;
 }
 
@@ -58,4 +64,17 @@ button img {
 
 .InterestsSection {
   padding-bottom: 2rem;
+}
+
+.icons {
+  background-color: #D5D4D8;
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  margin: auto;
+}
+
+.icons img {
+  height: 35px;
+  padding: 15px;
 }
